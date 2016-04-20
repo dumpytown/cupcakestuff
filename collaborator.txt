@@ -1,0 +1,20 @@
+I've added you as a collaborator to this repo. 
+
+This means that you should be able to clone the repo directly without forking it and that any pushes will roll up into something we both share.
+
+Let's verify by trying to clone this repo by running the following command. 
+
+Be sure that you're in your workspaces directory.
+
+git clone https://github.com/dumpytown/cupcakestuff.git
+
+Let's verify that the origin is still pointing to cupcakestuff repo owned by dumpytown.
+
+cd cupcakestuff
+
+git remote -v
+
+origin	https://github.com/dumpytown/cupcakestuff.git (fetch)
+origin	https://github.com/dumpytown/cupcakestuff.git (push)
+
+That's enough for now.
